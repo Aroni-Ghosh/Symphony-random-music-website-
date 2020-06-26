@@ -1,0 +1,811 @@
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #5E3721;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #97714A;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/logo-large.png') no-repeat;
+  width: 120px;
+  height: 120px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 55px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #4C2A20;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list {
+  margin-top: 20px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 30px;
+
+}
+#nav-list a:hover {
+  
+}
+#nav-list a span {
+  font-size: 18px;
+}
+#phone {
+  margin-top: 0;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: purple;
+  text-align: right;
+  padding-right: 15px;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+/****** Main content****** home page****/
+#home-tiles {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+#violin-tile {
+  width: 100%;
+  height: 700px;
+
+}
+#violin-tile {
+  background: url('../images/home-image.jpg') no-repeat;
+  background-position: center;
+}
+#login-tile {
+  height: 400px;
+}
+
+
+#login-tile p {
+  font-size: 1.8em;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 70px;
+  color: #ffB;
+  font-weight: bold;
+  font-style: italic;
+}
+#start_button {
+  color: blue;
+  height: 30px;
+
+}
+#user_portion {
+  margin-left: 100px;
+
+}
+#user_mail {
+  height: 30px;
+  width:230px;
+}
+
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 40px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #7D5C3A;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+/*footer end*/
+
+
+/*****Music cateories page start****/
+#marquee-container {
+  background-color: #924925;
+}
+h1 {
+  
+  color:#ffB; 
+  margin-top: 0;
+}
+h2 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #FFD564;
+
+}
+
+
+
+
+
+
+
+#classical-tile, #folk-tile, #pop-tile,
+ #psychedelic-tile ,#minimal-tile, 
+ #heavy-metal-tile, #alternative-tile, #rock-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+
+#classical-tile {
+  background: url('../images/classical.jpg') no-repeat;
+  background-position: center;
+}
+#folk-tile {
+  background: url('../images/folk-medium.jpg') no-repeat;
+  background-position: center;
+}
+#rock-tile {
+  background: url('../images/rock.jpg') no-repeat;
+  background-position: center;
+}
+#psychedelic-tile {
+  background: url('../images/psychedelic.jpg') no-repeat;
+  background-position: center;
+}
+#pop-tile {
+  background: url('../images/pop.jpg') no-repeat;
+  background-position: center;
+}
+#minimal-tile {
+  background: url('../images/minimal.jpg') no-repeat;
+  background-position: center;
+}
+#alternative-tile {
+  background: url('../images/alternative.jpg') no-repeat;
+  background-position: center;
+}
+#heavy-metal-tile {
+  background: url('../images/heavy metal.jpg') no-repeat;
+  background-position: center;
+}
+
+
+
+#classical-tile span, #folk-tile span ,#pop-tile span,
+ #psychedelic-tile span ,#minimal-tile span, 
+ #heavy-metal-tile span, #alternative-tile span, #rock-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+#pink-floyd,#beatles,#linkin-park ,#cranberries
+,#metalica, #green-day, #evanescence, #scorpions,
+#coldplay, #porcupine-trees {
+
+height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#band-category-home-tiles div a div span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+#pink-floyd {
+  background: url('../images/pink floyd.jpg') no-repeat;
+  background-position: center;
+}
+#beatles {
+  background: url('../images/beatles.jpg') no-repeat;
+  background-position: center;
+}
+#evanescence {
+  background: url('../images/evanescence.png') no-repeat;
+  background-position: center;
+}
+#linkin-park {
+  background: url('../images/linkin park.jpg') no-repeat;
+  background-position: center;
+}
+#green-day {
+  background: url('../images/green day.png') no-repeat;
+  background-position: center;
+}
+#metalica {
+  background: url('../images/metalica.jpg') no-repeat;
+  background-position: center;
+}
+#scorpions {
+  background: url('../images/scorpions.jpg') no-repeat;
+  background-position: center;
+}
+#porcupine-trees {
+  background: url('../images/porcupine tree.jpg') no-repeat;
+  background-position: center;
+}
+#cranberries {
+  background: url('../images/cranberries.jpg') no-repeat;
+  background-position: center;
+}
+#coldplay {
+  background: url('../images/coldplay.jpg') no-repeat;
+  background-position: center;
+}
+
+/*****Music cateories page end****/
+
+
+
+
+/*****Classical Composers start*******/
+#classical-composers-home-tiles div a div {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#classical-composers-home-tiles div a div span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#beethoven {
+  background: url('../images/beethoven.jpg') no-repeat;
+  background-position: center;
+}
+#chopin {
+  background: url('../images/chopin.jpg') no-repeat;
+  background-position: center;
+}
+#satie {
+  background: url('../images/satie.jpg') no-repeat;
+  background-position: center;
+}
+#mozart {
+  background: url('../images/mozart.jpg') no-repeat;
+  background-position: center;
+}
+#paganini {
+  background: url('../images/paganini.jpg') no-repeat;
+  background-position: center;
+}
+#mahler {
+  background: url('../images/mahler.jpg') no-repeat;
+  background-position: center;
+}
+#ernst {
+  background: url('../images/ernst.jpg') no-repeat;
+  background-position: center;
+}
+#sibelius {
+  background: url('../images/sibelius.jpg') no-repeat;
+  background-position: center;
+}
+#tchaikovsky {
+  background: url('../images/tchaikovsky.jpg') no-repeat;
+  background-position: center;
+}
+#franz-liszt {
+  background: url('../images/franz liszt.jpg') no-repeat;
+  background-position: center;
+}
+#brahms {
+  background: url('../images/brahms.jpg') no-repeat;
+  background-position: center;
+}
+#vivaldi {
+  background: url('../images/vivaldi.jpg') no-repeat;
+  background-position: center;
+}
+#bach {
+  background: url('../images/bach.jpg') no-repeat;
+  background-position: center;
+}
+
+/*****Classical Composers end*******/
+
+
+
+/*****Beethoven page starts*****/
+
+#beethoven-home-tiles div div {
+height: 350px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px ;
+
+}
+
+#beethoven-img {
+  margin-top: 60px;
+  background: url('../images/beethoven.jpg') no-repeat;
+  margin-left: 40px;
+}
+
+
+#beethoven-bio p  {
+
+  color: #FFFC47;
+  margin-top: 20px;
+  font-size: 17px;
+
+}
+#beethoven-album-tiles div div {
+  height: 360px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid white;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #EDDEB9;
+
+}
+
+#beethoven-album-tiles div div span {
+ 
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #ffA;
+  color: blue;
+  opacity: .7;
+
+
+}
+#beethoven-album-tiles div div p ,
+#beethoven-album-tiles div div p a{
+font-size: 20px;
+text-align: center;
+font-weight: bold;
+color: #757427;
+
+}
+
+
+/*****Beethoven page end*****/
+
+
+
+/*****Mozart Page starts*******/
+
+#mozart-home-tiles div div {
+height: 650px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px ;
+
+}
+
+#mozart-img {
+  margin-top: 150px;
+  background: url('../images/mozart.jpg') no-repeat;
+  margin-left: 40px;
+}
+
+
+#mozart-bio p  {
+
+  color: #FFFC47;
+  margin-top: 20px;
+  font-size: 17px;
+
+}
+#mozart-album-tiles div div {
+  height: 360px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid white;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #EDDEB9;
+
+}
+
+#mozart-album-tiles div div span {
+ 
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #ffA;
+  color: blue;
+  opacity: .7;
+
+
+}
+#mozart-album-tiles div div p ,
+#mozart-album-tiles div div p a{
+font-size: 20px;
+text-align: center;
+font-weight: bold;
+color: #757427;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****Mozart Page ends*******/
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo-medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+#login-tile {
+  height: 900px;
+}
+
+
+#login-tile p {
+  font-size: 1.6em;
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-bottom: 120px;
+  color: #ffB;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#user_portion {
+  margin-left: 100px;
+
+}
+#beethoven-img {
+  margin-top: 120px;
+  background: url('../images/beethoven-medium.jpg') no-repeat;
+  margin-left: 30px;
+  height: 150px;
+}
+  #beethoven-bio {
+  overflow: auto;
+}
+
+#mozart-img {
+  margin-top: 120px;
+  background: url('../images/mozart-medium.jpg') no-repeat;
+  margin-left: 30px;
+  height: 150px;
+}
+  #mozart-bio {
+  overflow: auto;
+}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#login-tile {
+  height: 300px;
+}
+
+
+#login-tile p {
+  font-size: 1.7em;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 70px;
+  color: #ffB;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#user_portion {
+  margin-left: 180px;
+
+}
+/*** beethoven page *****/
+#beethoven-img {
+  margin-top: 100px;
+  background: url('../images/beethoven-medium.jpg') no-repeat;
+  margin-left: 20px;
+  height: 150px;
+}
+#beethoven-album-tiles div div p {
+  font-size: 14px;
+
+}
+#beethoven-bio {
+  overflow: auto;
+}
+#mozart-img {
+  margin-top: 60px;
+  background: url('../images/mozart-medium.jpg') no-repeat;
+  margin-left: 20px;
+  height: 150px;
+}
+#mozart-album-tiles div div p {
+  font-size: 14px;
+
+}
+#mozart-bio {
+  overflow: auto;
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+   /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    width: 100%;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.1em;
+    padding-top: 5px;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+
+  }
+
+  #call-btn > a {
+    font-size: 1.4em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px;
+    background-color: #DCDCFF;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .8em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #6F533A;
+  }
+  /* End Header */
+  /***main*************/
+  #violin-tile {
+  background: url('../images/home-image-medium.jpg') no-repeat;
+  background-position: center;
+  height: 500px;
+  margin-top: 10px;
+}
+#login-tile {
+  height: 200px;
+}
+#login-tile p {
+  font-size: 0.8em;
+  margin-top: 60px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  color: #ffB;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+#user_portion {
+  margin-left: 30px;
+
+}
+#user_mail {
+  height: 30px;
+  
+}
+ /*** beethoven page *****/
+ #beethoven-home-tiles h1{
+  font-size: 20px;
+ }
+ #beethoven-home-tiles h4{
+  font-size: 12px;
+ }
+ 
+#beethoven-album-tiles div div p {
+  font-size: 14px;
+  
+}
+#beethoven-bio {
+  overflow: auto;
+}
+#beethoven-bio p {
+
+  color: #FFFC47;
+  margin-top: 20px;
+  font-size: 14px;
+
+}
+/***mozart page ****/
+
+
+ #mozart-home-tiles h1{
+  font-size: 20px;
+ }
+ #mozart-home-tiles h4{
+  font-size: 12px;
+ }
+
+#mozart-album-tiles div div p {
+  font-size: 14px;
+  
+}
+#mozart-bio {
+  overflow: auto;
+}
+#mozart-bio p {
+
+  color: #FFFC47;
+  margin-top: 20px;
+  font-size: 14px;
+
+}
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+  #violin-tile {
+  background: url('../images/home-image-small.jpg') no-repeat;
+  background-position: center;
+  height: 380px;
+  margin-top: 10px;
+}
+  #login-tile {
+  height: 200px;
+}
+#login-tile p {
+  font-size: 1em;
+  margin-top: 60px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  color: #ffB;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#user_portion {
+  margin-left: 10px;
+
+}
+#user_mail {
+  height: 30px;
+  width: 140px;
+}
+/*** beethoven page *****/
+
+#beethoven-bio {
+  overflow: auto;
+}
+
+#mozart-bio {
+  overflow: auto;
+}
+}
+

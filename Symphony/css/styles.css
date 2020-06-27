@@ -369,6 +369,10 @@ height: 250px;
   background: url('../images/bach.jpg') no-repeat;
   background-position: center;
 }
+#playlist {
+  background: url('../images/playlist.png') no-repeat;
+  background-position: center;
+}
 
 /*****Classical Composers end*******/
 
@@ -501,29 +505,31 @@ color: #757427;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*****Mozart Page ends*******/
 
+/**playlist start*****/
+#button-group {
+  text-align: center;
+}
+#click {
+  background-color: #ffd;
+  color: blue;
+  width: 400px;
+  height: 50px;
+  margin-left:20px;
+  margin-bottom: 10px;
+
+}
+#playlist_header {
+  margin-top: 40px;
+  margin-bottom: 30px;
+ text-align: center;
+}
+
+
+
+
+/**playlist end*****/
 
 
 /********** Large devices only **********/
@@ -749,6 +755,13 @@ color: #757427;
   font-size: 14px;
 
 }
+
+#click {  /** playlist**/
+ margin-left: 0;
+ width: 300px;
+
+  }
+
 }
 
 
